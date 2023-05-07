@@ -1,0 +1,9 @@
+smart contract - 
+
+1st : make struct - Access : data type - adresss and bool , simply whom we are giving access
+
+2 : mapping(add=>string[]) = now this is for a user will store the hash of the image in a array which is uploded to the ipfs
+
+3rd: mapping(add=>Acess[]) acceslist : now this is for storing the adress corresponding to the access list (like whom we give the access )
+
+4th : nested mapping , we will use this for storing the address to correps address for giving the owenrship (access) 
