@@ -6,4 +6,4 @@ smart contract -
 
 3rd: mapping(add=>Acess[]) acceslist : now this is for storing the adress corresponding to the access list (like whom we give the access )
 
-4th : nested mapping , we will use this for storing the address to correps address for giving the owenrship (access) 
+4th : nested mapping , we will use this for storing the address to correps address for giving the owenrship (access) .
