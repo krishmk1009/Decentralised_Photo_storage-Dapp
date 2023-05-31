@@ -9,7 +9,7 @@ import Display from "./component/Display"
 
 import './App.css';
 import Navbar from "./component/Navbar";
-import Sidebar from "./component/sideBar";
+import Sidebar from "./component/SideBar";
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
         const signer = provider.getSigner();
         const address = await signer.getAddress();
         setAccount(address);
-        let contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+        let contractAddress = "0x3C16BC7202DEeDaf665f2d8A7C4aE9125B9540FB";
 
         const contract = new ethers.Contract(
           contractAddress,
