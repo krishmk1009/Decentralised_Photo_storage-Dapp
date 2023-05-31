@@ -21,6 +21,7 @@ function App() {
 
   useEffect(() => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
+    
 
     const loadProvider = async () => {
       if (provider) {
@@ -42,6 +43,9 @@ function App() {
           Upload.abi,
           signer
         );
+        console.log(import.meta.env.VITE_SOME_KEY) // 123
+console.log(import.meta.env.DB_PASSWORD) // undefined
+
         console.log(contract);
         setContract(contract);
         setProvider(provider);
